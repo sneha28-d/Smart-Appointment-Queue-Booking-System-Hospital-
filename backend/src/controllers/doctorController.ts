@@ -2,7 +2,7 @@ import type { Request, Response } from 'express';
 const Doctor = require('../models/Doctor');
 const cloudinary = require('../config/cloudinary');
 const fs = require('fs');
-const path = require('path');
+const path = require('path'); 
 
 const DeleteImage = async (imageUrl: string) => {
     if (!imageUrl) return;
