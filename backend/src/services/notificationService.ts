@@ -1,7 +1,7 @@
 const sgMail = require('@sendgrid/mail');
 
 sgMail.setApiKey(process.env.SENDGRID_API_KEY as string);
-
+ 
 // Brand constants 
 const SITE_NAME = 'DocQueue';
 const SITE_TAGLINE = 'Smart Appointment & Queue Booking';
