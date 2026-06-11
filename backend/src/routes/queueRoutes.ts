@@ -7,7 +7,7 @@ const router = express.Router();
 router.get('/', GetQueue);
 router.post('/checkin', Protect, CheckIn);
 router.post('/complete', Protect, Admin, CompleteQueueItem);
-router.post('/callnext', Protect, Admin, CallNext);
+router.post('/callnext', Protect, Admin, CallNext); 
 router.post('/skip', Protect, Admin, SkipQueueItem);
 
 module.exports = router;
