@@ -1,6 +1,6 @@
 import type { Request, Response } from 'express';
 const bcrypt = require('bcrypt');
-const User = require('../models/User');
+const User = require('../models/User'); 
 const { GenerateToken } = require('../utils/generateToken');
 const { SendWelcomeEmail, SendLoginNotificationEmail } = require('../services/notificationService');
 
