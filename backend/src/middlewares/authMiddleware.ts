@@ -2,7 +2,7 @@ import type { Request, Response, NextFunction } from 'express';
 const jwt = require('jsonwebtoken');
 const User = require('../models/User');
 import type { IUser } from '../models/User';
-
+ 
 export interface AuthRequest extends Request {
     user?: IUser;
 }
