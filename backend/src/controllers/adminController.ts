@@ -1,6 +1,6 @@
 import type { Request, Response } from 'express';
 const Service = require('../models/Service');
-const Schedule = require('../models/Schedule');
+const Schedule = require('../models/Schedule'); 
 const Appointment = require('../models/Appointment');
 const AdminNotification = require('../models/AdminNotification');
 const Doctor = require('../models/Doctor');
