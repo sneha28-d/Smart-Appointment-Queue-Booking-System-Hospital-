@@ -1,7 +1,7 @@
 import type { Request, Response } from 'express';
 import type { AuthRequest } from '../middlewares/authMiddleware';
 const Appointment = require('../models/Appointment');
-const Queue = require('../models/Queue');
+const Queue = require('../models/Queue'); 
 const Schedule = require('../models/Schedule');
 const AdminNotification = require('../models/AdminNotification');
 const Doctor = require('../models/Doctor');
