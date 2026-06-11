@@ -6,7 +6,7 @@ const GenerateQRCodeModel = async (text: string): Promise<string> => {
         return qrCodeDataUrl;
     } catch (err) {
         console.error('Error generating QR code', err);
-        return '';
+        return ''; 
     }
 };
 
