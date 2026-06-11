@@ -1,5 +1,5 @@
 let cloudinary: any;
-
+ 
 try {
     const CloudinaryModule = require('cloudinary');
     cloudinary = CloudinaryModule.v2;
