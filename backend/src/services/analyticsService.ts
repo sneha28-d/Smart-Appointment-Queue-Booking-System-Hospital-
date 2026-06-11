@@ -3,7 +3,7 @@ const Appointment = require('../models/Appointment');
 const Doctor = require('../models/Doctor');
 const Queue = require('../models/Queue');
 const Schedule = require('../models/Schedule');
-
+ 
 export interface AnalyticsResult {
     doctorName: string;
     speciality: string;
