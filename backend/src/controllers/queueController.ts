@@ -3,7 +3,7 @@ import type { AuthRequest } from '../middlewares/authMiddleware';
 const mongoose = require('mongoose');
 const Queue = require('../models/Queue');
 const Appointment = require('../models/Appointment');
-const { getIO } = require('../config/socket');
+const { getIO } = require('../config/socket'); 
 const { SendEmail } = require('../services/notificationService');
 const Doctor = require('../models/Doctor');
 const User = require('../models/User');
