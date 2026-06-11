@@ -6,7 +6,7 @@ if (!cloudinary) {
     console.error('❌ FATAL: Cloudinary is not initialized!');
     throw new Error('Cloudinary configuration failed');
 }
-
+ 
 try {
     const storage = new CloudinaryStorage({
         cloudinary: { v2: cloudinary },
