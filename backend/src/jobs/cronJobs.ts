@@ -2,7 +2,7 @@ const cron = require('node-cron');
 const Appointment = require('../models/Appointment');
 const User = require('../models/User');
 const { SendEmail } = require('../services/notificationService');
-
+ 
 const StartCronJobs = (): void => {
     cron.schedule('0 * * * *', async () => {
         console.log('Cron Job: Checking for upcoming appointments to send reminders...');
