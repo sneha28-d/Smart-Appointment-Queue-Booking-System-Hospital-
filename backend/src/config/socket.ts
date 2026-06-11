@@ -1,6 +1,6 @@
 const { Server } = require('socket.io');
 
-let io: any;
+let io: any; 
 const initSocket = (server: any) => {
     io = new Server(server, {
         cors: {
