@@ -2,7 +2,7 @@ import { GoogleGenAI } from '@google/genai';
 import type { AnalyticsResult } from './analyticsService';
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
-
+ 
 if (!GEMINI_API_KEY) {
     console.warn('WARNING: GEMINI_API_KEY is not defined in the environment variables.');
 }
